@@ -30,6 +30,7 @@
     "1 10 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=中国联通, img-url=https://raw.githubusercontent.com/Orz-3/task/master/10010.png",
     "21 10 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js, tag=中国电信, img-url=https://raw.githubusercontent.com/Orz-3/task/master/10000.png",
     "1 1 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/everphoto/everphoto.js, tag=时光相册, img-url=https://raw.githubusercontent.com/Orz-3/task/master/everphoto.png",
-    "12 7 * * * https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js, tag=每日一句+蚂蚁森林收能量, img-url=https://raw.githubusercontent.com/Orz-3/task/master/corn.png"
+    "12 7 * * * https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js, tag=每日一句+蚂蚁森林收能量, img-url=https://raw.githubusercontent.com/Orz-3/task/master/corn.png",
+    "*/10 5-23 * * * * * * http://script.frp.aiuyo.com:8680/scripts/slyd.js, tag=书路阅读"
   ]
 }
