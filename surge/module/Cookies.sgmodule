@@ -3,11 +3,13 @@
 
 [Script]
 # 追书神器 hostname = *.zhuishushenqi.com
-zssq1 = type=http-request,pattern=https://sensorspop.zhuishushenqi.com/api/v2/sfo/user_popup_configs,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/zssq.js
-zssq2 = type=http-request,pattern=https://goldcoin.zhuishushenqi.com/account/open-app,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/zssq.js
-zssq3 = type=http-request,pattern=https://goldcoin.zhuishushenqi.com/thirdpartypromotion/v2/getAllPromotion,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/zssq.js
-zssq4 = type=http-request,pattern=http://goldcoinnew.zhuishushenqi.com/redPacket/incentiveVideo,requires-body=1,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/zssq.js
-zssq5 = type=http-request,pattern=https://goldcoin.zhuishushenqi.com/v3/shitu/bind-promoter,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/zssq.js
+zssq1 = type=http-request,pattern=https://sensorspop.zhuishushenqi.com/api/v2/sfo/user_popup_configs,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/zssq.js,script-update-interval=0
+zssq2 = type=http-request,pattern=https://goldcoin.zhuishushenqi.com/account/open-app,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/zssq.js,script-update-interval=0
+zssq3 = type=http-request,pattern=https://goldcoin.zhuishushenqi.com/thirdpartypromotion/v2/getAllPromotion,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/zssq.js,script-update-interval=0
+zssq4 = type=http-request,pattern=http://goldcoinnew.zhuishushenqi.com/redPacket/incentiveVideo,requires-body=1,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/zssq.js,script-update-interval=0
+zssq5 = type=http-request,pattern=https://goldcoin.zhuishushenqi.com/v3/shitu/bind-promoter,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/zssq.js,script-update-interval=0
+# 健康头条 hostname=*.jk-tt.com
+jkttapp = type=http-request,pattern=https://app-connect.jk-tt.com/comment/comment/readEssay,requires-body=1,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/jktt.js,script-update-interval=0
 
 [MITM]
 hostname = %APPEND% *.zhuishushenqi.com
