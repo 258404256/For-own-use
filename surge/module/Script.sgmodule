@@ -16,4 +16,4 @@ myxj1 = type=http-request,pattern=^https?:\/\/api\.account\.meitu\.com\/(common\
 myxj2 = type=http-request,pattern=^https?:\/\/api\.meiyan\.com\/vip\/(user_center\.json|user_info\.json),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/MeiYanXiangJi.js,script-update-interval=0
 
 [MITM]
-hostname = %APPEND% spclient.wg.spotify.com, app.yiyan.art
+hostname = %APPEND% spclient.wg.spotify.com, app.yiyan.art, api.account.meitu.com, api.meiyan.com
