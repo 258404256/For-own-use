@@ -1,0 +1,13 @@
+#!name=今日头条极速版
+#!desc=今日头条极速版签到
+
+[Script]
+jrtt1 = type=http-request,pattern=luckycat/lite/v1/withdraw/withdraw,requires-body=1,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/jrtt.js,script-update-interval=0
+jrtt2 = type=http-request,pattern=luckycat/lite/v1/activity/done_whole_scene_task,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/jrtt.js,script-update-interval=0
+jrtt3 = type=http-request,pattern=v1/task.+(open_treasure_box|excitation_ad),requires-body=1,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/jrtt.js,script-update-interval=0
+jrtt4 = type=http-request,pattern=ttgame/game_farm/gift/list,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/jrtt.js,script-update-interval=0
+jrtt5 = type=http-request,pattern=ttgame/game_orchard/three_gift/list,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/jrtt.js,script-update-interval=0
+jrtt6 = type=http-request,pattern=ttgame/game_king/home_info,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/jrtt.js,script-update-interval=0
+
+[MITM]
+hostname = %APPEND% *.toutiaoapi.com, *.zijieapi.com
