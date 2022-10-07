@@ -12,6 +12,8 @@ zssq5 = type=http-request,pattern=https://goldcoin.zhuishushenqi.com/v3/shitu/bi
 jkttapp = type=http-request,pattern=https://app-connect.jk-tt.com/comment/comment/readEssay,requires-body=1,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/jktt.js,script-update-interval=0
 # 小米运动(*.huami.com)
 xmydapp = type=http-request,pattern=.+/registrations/.*/tokens,requires-body=1,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/xmyd.js,script-update-interval=0
+# 文旅看点 hostname = *.zhongchuanjukan.com
+wlkdapp = type=http-request,pattern=https://wlkdapi.zhongchuanjukan.com/home/info,requires-body=1,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/wlkd.js,script-update-interval=0
 
 [MITM]
-hostname = %APPEND% *.zhuishushenqi.com, *.huami.com, *.jk-tt.com
+hostname = %APPEND% *.zhuishushenqi.com, *.huami.com, *.jk-tt.com, *.zhongchuanjukan.com
