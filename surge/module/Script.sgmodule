@@ -1,0 +1,13 @@
+#!name=Script
+#!desc=获取Scripts
+
+[Script]
+# Spotify解锁 2022-02-15
+# 使用说明：  1、部分解锁premium 需iOS15 ,音质不能设置为超高；
+# 使用说明：  2、搜索界面 歌单/歌曲可以随意切换完全播放；
+# 使用说明：  3、音乐库已点赞歌曲随意切换完全播放；
+# hostname=spclient.wg.spotify.com
+Spotify = type=http-request,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js,script-update-interval=0
+
+    [MITM]
+hostname = %APPEND% spclient.wg.spotify.com
