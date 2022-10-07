@@ -15,6 +15,8 @@ xmydapp = type=http-request,pattern=.+/registrations/.*/tokens,requires-body=1,m
 # 抖音极速版 hostname = *.amemv.com
 dyjsb1 = type=http-request,pattern=luckycat/aweme/v1/task/sign_in/detail?,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/dyjsb.js,script-update-interval=0
 dyjsb2 = type=http-request,pattern=luckycat/aweme/v1/task/done/(read|treasure_task|excitation_ad_treasure_box|excitation_ad)?,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/dyjsb.js,script-update-interval=0
+# 快手短视频(V9.9.20) hostname=*.kuaishou.com
+ks = type=http-request,pattern=https://encourage.kuaishou.com/rest/wd/encourage/treasureBox/info,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/ks_ck.js,script-update-interval=0
 
 [MITM]
-hostname = %APPEND% *.zhuishushenqi.com, *.huami.com
+hostname = %APPEND% *.zhuishushenqi.com, *.huami.com, *.kuaishou.com
