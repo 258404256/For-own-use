@@ -14,4 +14,4 @@ jkttapp = type=http-request,pattern=https://app-connect.jk-tt.com/comment/commen
 xmydapp = type=http-request,pattern=.+/registrations/.*/tokens,requires-body=1,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/xmyd.js,script-update-interval=0
 
 [MITM]
-hostname = %APPEND% *.zhuishushenqi.com, *.huami.com
+hostname = %APPEND% *.zhuishushenqi.com, *.huami.com, *.jk-tt.com
