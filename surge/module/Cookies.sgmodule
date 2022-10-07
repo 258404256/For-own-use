@@ -10,6 +10,8 @@ zssq4 = type=http-request,pattern=http://goldcoinnew.zhuishushenqi.com/redPacket
 zssq5 = type=http-request,pattern=https://goldcoin.zhuishushenqi.com/v3/shitu/bind-promoter,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/zssq.js,script-update-interval=0
 # 健康头条 hostname=*.jk-tt.com
 jkttapp = type=http-request,pattern=https://app-connect.jk-tt.com/comment/comment/readEssay,requires-body=1,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/jktt.js,script-update-interval=0
+#小米运动(*.huami.com)
+xmydapp = type=http-request,pattern=.+/registrations/.*/tokens,requires-body=1,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/xmyd.js,script-update-interval=0
 
 [MITM]
-hostname = %APPEND% *.zhuishushenqi.com
+hostname = %APPEND% *.zhuishushenqi.com, *.huami.com
