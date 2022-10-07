@@ -1,0 +1,10 @@
+#!name=中青看点极速版
+#!desc=中青看点极速版,阅读文章和视频、浏览赚、看看赚、签到、转盘、福利视频
+
+[Script]
+zqkd1 = type=http-request,pattern=v5/article/info,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/zqkd_sync.js,script-update-interval=0
+zqkd2 = type=http-request,pattern=jrtt1 = type=http-request,pattern=Nameless/getTaskBrowse,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/zqkd_sync.js,script-update-interval=0
+zqkd3 = type=http-request,pattern=NewTaskIos/getTaskList,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/zqkd_sync.js,script-update-interval=0
+
+[MITM]
+hostname = %APPEND% *.youth.cn, kandian.wkandian.com
