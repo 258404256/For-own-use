@@ -17,7 +17,7 @@ myxj2 = type=http-request,pattern=^https?:\/\/api\.meiyan\.com\/vip\/(user_cente
 # 彩云天气
 cytq = http-request, pattern=https:\/\/((weather-data\.apple)|(api.weather))\.com, script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js, require-body=false
 # > 031 彩云天气 （2020-11-21） by ddgksf2013 biz.caiyunapp.com
-caiyuntianqi_svip = type=http-response,requires-body=1,max-size=0,pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user),script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/caiyun/caiyun_svip.js
+caiyuntianqi_svip = type=http-response,requires-body=1,max-size=0,pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user),script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/caiyun.js
 
 
 [MITM]
