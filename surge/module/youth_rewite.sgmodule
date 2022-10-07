@@ -1,0 +1,14 @@
+#!name=中青阅读看看赚
+#!desc=中青阅读看看赚获取Cookie
+
+[Script]
+youth = type=http-request,pattern=https:\/\/kandian\.wkandian\.com\/WebApi\/NewTaskIos\/getTaskList,max-size=0,script-path= https://raw.githubusercontent.com/258404256/abu-qx/main/qx/Script/youth.js,script-update-interval=0
+youth1 = type=http-request,pattern=https:\/\/kandian\.wkandian\.com\/v5\/article\/info\.json,max-size=0,script-path=https://raw.githubusercontent.com/258404256/abu-qx/main/qx/Script/youth.js,script-update-interval=0
+youth2 = type=http-request,pattern=https:\/\/kandian\.wkandian\.com\/v5\/user\/stay\.json,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/258404256/abu-qx/main/qx/Script/youth.js,script-update-interval=0
+youth3 = type=http-request,pattern=https:\/\/kandian\.wkandian\.com\/v5\/task\/browse_start\.json,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/258404256/abu-qx/main/qx/Script/youth_gain.js,script-update-interval=0
+youth4 = type=http-request,pattern=https:\/\/kandian\.wkandian\.com\/v5\/Nameless\/adlickstart\.json,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/258404256/abu-qx/main/qx/Script/youth_gain.js,script-update-interval=0
+youth5 = type=http-request,pattern=https:\/\/kandian\.wkandian\.com\/v5\/\w+\/withdraw\d?\.json,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/258404256/abu-qx/main/qx/Script/youth.js,script-update-interval=0
+
+
+[MITM]
+hostname = %APPEND% kd.youth.cn, kandian.wkandian.com

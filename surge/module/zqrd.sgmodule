@@ -2,9 +2,9 @@
 #!desc=中青阅读获取Cookie
 
 [Script]
-zqrd = type=http-request,pattern=https:\/\/kandian\.wkandian\.com\/v5\/article\/info\.json,max-size=0,script-path=https://raw.githubusercontent.com/258404256/abu-qx/main/qx/Script/youth_read.js
-zqrd1 = type=http-request,pattern=https:\/\/kandian\.wkandian\.com\/v5\/article\/complete\.json,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/258404256/abu-qx/main/qx/Script/youth_read.js
-zqrd2 = type=http-request,pattern=https:\/\/kandian\.wkandian\.com/v5\/user\/stay\.json,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/258404256/abu-qx/main/qx/Script/youth_read.js
+zqrd = type=http-request,pattern=https:\/\/kandian\.wkandian\.com\/v5\/article\/info\.json,max-size=0,script-path=https://raw.githubusercontent.com/258404256/abu-qx/main/qx/Script/youth_read.js,script-update-interval=0
+zqrd1 = type=http-request,pattern=https:\/\/kandian\.wkandian\.com\/v5\/article\/complete\.json,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/258404256/abu-qx/main/qx/Script/youth_read.js,script-update-interval=0
+zqrd2 = type=http-request,pattern=https:\/\/kandian\.wkandian\.com/v5\/user\/stay\.json,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/258404256/abu-qx/main/qx/Script/youth_read.js,script-update-interval=0
 
 
 [MITM]
