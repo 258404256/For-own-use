@@ -16,7 +16,7 @@ xmydapp = type=http-request,pattern=.+/registrations/.*/tokens,requires-body=1,m
 wlkdapp = type=http-request,pattern=https://wlkdapi.zhongchuanjukan.com/home/info,requires-body=1,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/wlkd.js,script-update-interval=0
 # 九章头条
 jzttapp = type=http-request,pattern=api.st615.com/v2/user/task,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/jztt.js,script-update-interval=0
-# 番茄小说
+# 番茄小说 , *.fqnovel.com, *.snssdk.com
 fqxsapp1 = type=http-request,pattern=excitation_ad_treasure_box,requires-body=0,timeout=30,script-path=http://script.frp.aiuyo.com:8680/scripts/fqxs.js,script-update-interval=0
 fqxsapp2 = type=http-request,pattern=luckycat/novel/v1/task/sign_in/.+ url,requires-body=0,timeout=30,script-path=http://script.frp.aiuyo.com:8680/scripts/fqxs.js,script-update-interval=0
 # 番茄畅听
@@ -24,4 +24,4 @@ fqctapp = type=http-request,pattern=luckycat/novel_fm/v1/task/sign_in/*,requires
 
 
 [MITM]
-hostname = %APPEND% *.zhuishushenqi.com, *.huami.com, *.jk-tt.com, *.zhongchuanjukan.com, api.st615.com, *.fqnovel.com, *.snssdk.com
+hostname = %APPEND% *.zhuishushenqi.com, *.huami.com, *.jk-tt.com, *.zhongchuanjukan.com, api.st615.com
