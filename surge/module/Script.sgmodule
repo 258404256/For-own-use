@@ -1,6 +1,9 @@
 #!name=Script
 #!desc=获取Scripts
 
+[Header Rewrite]
+https:\/\/api\.revenuecat\.com header-del x-revenuecat-etag
+
 [Script]
 # Spotify解锁 2022-02-15
 # 使用说明：  1、部分解锁premium 需iOS15 ,音质不能设置为超高；
@@ -16,7 +19,8 @@ myxj1 = type=http-request,pattern=^https?:\/\/api\.account\.meitu\.com\/(common\
 myxj2 = type=http-request,pattern=^https?:\/\/api\.meiyan\.com\/vip\/(user_center\.json|user_info\.json),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/MeiYanXiangJi.js,script-update-interval=0
 # > 031 彩云天气 （2020-11-21） by ddgksf2013 biz.caiyunapp.com
 caiyuntianqi_svip = type=http-response,requires-body=1,max-size=0,pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user),script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/caiyun.js
-
+# Spark解锁订阅 api.revenuecat.com
+spark = type=http-response,pattern=https:\/\/api\.revenuecat\.com,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Hpxwd/Surge/main/Js/revenuecat.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% spclient.wg.spotify.com, app.yiyan.art, api.account.meitu.com, api.meiyan.com, biz.caiyunapp.com
+hostname = %APPEND% spclient.wg.spotify.com, app.yiyan.art, api.account.meitu.com, api.meiyan.com, biz.caiyunapp.com, api.revenuecat.com
