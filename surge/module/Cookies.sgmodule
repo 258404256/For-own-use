@@ -3,24 +3,24 @@
 
 [Script]
 # 追书神器 hostname = *.zhuishushenqi.com
-zssq1 = type=http-request,pattern=https://sensorspop.zhuishushenqi.com/api/v2/sfo/user_popup_configs,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/zssq.js,script-update-interval=0
-zssq2 = type=http-request,pattern=https://goldcoin.zhuishushenqi.com/account/open-app,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/zssq.js,script-update-interval=0
-zssq3 = type=http-request,pattern=https://goldcoin.zhuishushenqi.com/thirdpartypromotion/v2/getAllPromotion,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/zssq.js,script-update-interval=0
-zssq4 = type=http-request,pattern=http://goldcoinnew.zhuishushenqi.com/redPacket/incentiveVideo,requires-body=1,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/zssq.js,script-update-interval=0
-zssq5 = type=http-request,pattern=https://goldcoin.zhuishushenqi.com/v3/shitu/bind-promoter,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/zssq.js,script-update-interval=0
+zssq1 = type=http-request,pattern=https://sensorspop.zhuishushenqi.com/api/v2/sfo/user_popup_configs,max-size=0,script-path=https://raw.githubusercontent.com/258404256/For-own-use/main/surge/scripts/DavidScript/zssq.js,script-update-interval=0
+zssq2 = type=http-request,pattern=https://goldcoin.zhuishushenqi.com/account/open-app,max-size=0,script-path=https://raw.githubusercontent.com/258404256/For-own-use/main/surge/scripts/DavidScript/zssq.js,script-update-interval=0
+zssq3 = type=http-request,pattern=https://goldcoin.zhuishushenqi.com/thirdpartypromotion/v2/getAllPromotion,max-size=0,script-path=https://raw.githubusercontent.com/258404256/For-own-use/main/surge/scripts/DavidScript/zssq.js,script-update-interval=0
+zssq4 = type=http-request,pattern=http://goldcoinnew.zhuishushenqi.com/redPacket/incentiveVideo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/258404256/For-own-use/main/surge/scripts/DavidScript/zssq.js,script-update-interval=0
+zssq5 = type=http-request,pattern=https://goldcoin.zhuishushenqi.com/v3/shitu/bind-promoter,max-size=0,script-path=https://raw.githubusercontent.com/258404256/For-own-use/main/surge/scripts/DavidScript/zssq.js,script-update-interval=0
 # 健康头条 hostname=*.jk-tt.com
-jkttapp = type=http-request,pattern=https://app-connect.jk-tt.com/comment/comment/readEssay,requires-body=1,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/jktt.js,script-update-interval=0
+jkttapp = type=http-request,pattern=https://app-connect.jk-tt.com/comment/comment/readEssay,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/258404256/For-own-use/main/surge/scripts/DavidScript/jktt.js,script-update-interval=0
 # 小米运动(*.huami.com)
-xmydapp = type=http-request,pattern=.+/registrations/.*/tokens,requires-body=1,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/xmyd.js,script-update-interval=0
+xmydapp = type=http-request,pattern=.+/registrations/.*/tokens,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/258404256/For-own-use/main/surge/scripts/DavidScript/xmyd.js,script-update-interval=0
 # 文旅看点 hostname = *.zhongchuanjukan.com
-wlkdapp = type=http-request,pattern=https://wlkdapi.zhongchuanjukan.com/home/info,requires-body=1,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/wlkd.js,script-update-interval=0
+wlkdapp = type=http-request,pattern=https://wlkdapi.zhongchuanjukan.com/home/info,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/258404256/For-own-use/main/surge/scripts/DavidScript/wlkd.js,script-update-interval=0
 # 九章头条
-jzttapp = type=http-request,pattern=api.st615.com/v2/user/task,max-size=0,script-path=http://script.frp.aiuyo.com:8680/scripts/jztt.js,script-update-interval=0
+jzttapp = type=http-request,pattern=api.st615.com/v2/user/task,max-size=0,script-path=https://raw.githubusercontent.com/258404256/For-own-use/main/surge/scripts/DavidScript/jztt.js,script-update-interval=0
 # 番茄小说 , *.fqnovel.com, *.snssdk.com
-fqxsapp1 = type=http-request,pattern=excitation_ad_treasure_box,requires-body=0,timeout=30,script-path=http://script.frp.aiuyo.com:8680/scripts/fqxs.js,script-update-interval=0
-fqxsapp2 = type=http-request,pattern=luckycat/novel/v1/task/sign_in/.+ url,requires-body=0,timeout=30,script-path=http://script.frp.aiuyo.com:8680/scripts/fqxs.js,script-update-interval=0
+fqxsapp1 = type=http-request,pattern=excitation_ad_treasure_box,requires-body=0,timeout=30,script-path=https://raw.githubusercontent.com/258404256/For-own-use/main/surge/scripts/DavidScript/fqxs.js,script-update-interval=0
+fqxsapp2 = type=http-request,pattern=luckycat/novel/v1/task/sign_in/.+ url,requires-body=0,timeout=30,script-path=https://raw.githubusercontent.com/258404256/For-own-use/main/surge/scripts/DavidScript/fqxs.js,script-update-interval=0
 # 番茄畅听
-fqctapp = type=http-request,pattern=luckycat/novel_fm/v1/task/sign_in/*,requires-body=0,debug=1,script-path=http://script.frp.aiuyo.com:8680/scripts/fqctapp.js,script-update-interval=0
+fqctapp = type=http-request,pattern=luckycat/novel_fm/v1/task/sign_in/*,requires-body=0,debug=1,script-path=https://raw.githubusercontent.com/258404256/For-own-use/main/surge/scripts/DavidScript/fqctapp.js,script-update-interval=0
 # 慢慢买每日自动签到 apph5.manmanbuy.com
 慢慢买_每日签到 = script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js,type=cron,cronexp=10 0 * * *
 慢慢买_获取cookie = script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js,type=http-request,requires-body=true,pattern=^https?:\/\/apph5\.manmanbuy\.com\/taolijin\/(login.aspx|logserver.aspx)
