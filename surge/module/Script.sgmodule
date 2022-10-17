@@ -15,7 +15,7 @@ https:\/\/api\.revenuecat\.com header-del x-revenuecat-etag
 # hostname=spclient.wg.spotify.com
 spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js,script-update-interval=0
 # ✅ 一言(need登录) app.yiyan.art
-yiyan = type=http-request,pattern=^https:\/\/app\.yiyan\.art\/yiyan\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/yiyan.js,script-update-interval=0
+yiyan = type=http-response,pattern=^https:\/\/app\.yiyan\.art\/yiyan\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/yiyan.js,script-update-interval=0
 # > 美颜相机(2022.01.15)
 # hostname = api.account.meitu.com, api.meiyan.com
 myxj1 = type=http-response,pattern=^https?:\/\/api\.account\.meitu\.com\/(common\/check_device_login_pwd|users\/show_current\.json),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/MeiYanXiangJi.js,script-update-interval=0
