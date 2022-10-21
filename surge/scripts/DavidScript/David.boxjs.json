@@ -1,0 +1,1769 @@
+{
+    "id": "David.app.sub",
+    "name": "David脚本订阅(国内)",
+    "author": "@David",
+    "icon": "http://script.frp.aiuyo.com/dog.jpeg",
+    "apps": [
+	        {
+            "id":"fqctapp",
+            "name":"番茄畅听",
+            "keys":[
+                "fqctapp"
+            ],
+            "settings": [{
+                "id": "fqctuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	    {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "1",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "fqctactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/fqct-mini.png",
+                "http://script.frp.aiuyo.com/img/fqct.png"
+            ],
+            "script":"https://github.com/"
+        },
+		{
+            "id":"sqxsapp",
+            "name":"书旗小说",
+            "keys":[
+                "sqxsapp"	
+            ],
+            "settings": [{
+                "id": "sqxsuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	    {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "1",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "sqxsactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+	    ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/shuqi-mini.png",
+                "http://script.frp.aiuyo.com/img/shuqi.png"
+            ],
+            "script":"https://github.com/"
+        },
+	    {
+            "id":"dyjsbapp",
+            "name":"抖音极速版app",
+            "keys":[
+                "dyjsbapp"
+            ],
+            "settings": [{
+                "id": "dyjsbkey",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	    {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "1",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "dyjsbactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+	    ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/dyjsb-mini.png",
+                "http://script.frp.aiuyo.com/img/dyjsb.png"
+            ],
+            "script":"https://github.com/"
+        },
+	    {
+            "id":"qhbdspapp",
+            "name":"趣红包短视频",
+            "keys":[
+                "qhbdspapp"	
+            ],
+            "settings": [{
+                "id": "qhbdspuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            }],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/qhbapp-mini.png",
+                "http://script.frp.aiuyo.com/img/qhbapp.png"
+            ],
+            "script":"https://github.com/"
+        },
+	{
+            "id":"dawapp",
+            "name":"都爱玩",
+            "keys":[
+                "dawapp"	
+            ],
+            "settings": [{
+                "id": "dawuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            }],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/daw-mini.png",
+                "http://script.frp.aiuyo.com/img/daw.png"
+            ],
+            "script":"https://github.com/"
+        },
+        {
+            "id":"lsapp",
+            "name":"来闪",
+            "keys":[
+                "lsapp"	
+            ],
+            "settings": [
+            {
+                "id": "lsuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+            {
+                "id": "ls_invitation_status",
+                "name": "是否填写作者邀请码",
+                "val": "1",
+                "type": "number",
+                "desc": "0:不填 1:填写 默认填写"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/ls-mini.png",
+                "http://script.frp.aiuyo.com/img/ls.png"
+            ],
+            "script":"https://github.com/"
+        },
+	{
+            "id":"dzlapp",
+            "name":"多走路",
+            "keys":[
+                "dzlapp"	
+            ],
+            "settings": [
+	    {
+                "id": "dzluserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	    {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "1",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "dzlactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+	    ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/dzl-mini.png",
+                "http://script.frp.aiuyo.com/img/dzl.png"
+            ],
+            "script":"https://github.com/"
+        },
+	{
+            "id":"ydyyapp",
+            "name":"移动影院",
+            "keys":[
+                "ydyyapp"	
+            ],
+            "settings": [{
+                "id": "ydyyuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            }],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/ydyy-mini.png",
+                "http://script.frp.aiuyo.com/img/ydyy.png"
+            ],
+            "script":"https://github.com/"
+        },
+	{
+            "id":"tcapp",
+            "name":"图虫",
+            "keys":[
+                "tcapp"	
+            ],
+            "settings": [{
+                "id": "tcuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            }],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/tc-mini.png",
+                "http://script.frp.aiuyo.com/img/tc.png"
+            ],
+            "script":"https://github.com/"
+        },
+	{
+            "id":"dszbapp",
+            "name":"电视直播",
+            "keys":[
+                "dszbapp"	
+            ],
+            "settings": [{
+                "id": "dszbuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            }],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/dszb-mini.png",
+                "http://script.frp.aiuyo.com/img/dszb.png"
+            ],
+            "script":"https://github.com/"
+        },
+	{
+            "id":"xmydapp",
+            "name":"小米运动",
+            "keys":[
+                "xmydapp"	
+            ],
+            "settings": [{
+                "id": "xmyduserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            }],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/xmyd-mini.png",
+                "http://script.frp.aiuyo.com/img/xmyd.png"
+            ],
+            "script":"https://github.com/"
+        },
+	{
+            "id":"cydxsgame",
+            "name":"成语大学士",
+            "keys":[
+                "cydxsgame"	
+            ],
+            "settings": [{
+                "id": "cydxsuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            }],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/cydxs-mini.png",
+                "http://script.frp.aiuyo.com/img/cydxs.png"
+            ],
+            "script":"https://github.com/"
+        },
+	{
+            "id":"dtwzgame",
+            "name":"答题王者",
+            "keys":[
+                "dtwzgame"	
+            ],
+            "settings": [{
+                "id": "dtwzuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            }],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/wzdt-mini.png",
+                "http://script.frp.aiuyo.com/img/wzdt.png"
+            ],
+            "script":"https://github.com/"
+        },
+	{
+            "id":"dsjapp",
+            "name":"电视家",
+            "keys":[
+                "dsjapp"	
+            ],
+            "settings": [{
+                "id": "dsjuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	    {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "1",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "dsjactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "txamount",
+                "name": "提现金额",
+                "val": "1,2",
+                "type": "text",
+                "desc": "自己设定金额，用英文的逗号隔开"
+            }
+	    ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/dsj-mini.png",
+                "http://script.frp.aiuyo.com/img/dsj.png"
+            ],
+            "script":"https://github.com/"
+        },
+	{
+            "id":"kkzapp",
+            "name":"看看赚",
+            "keys":[
+                "zqkdkkz_body","jckdkkz_body"	
+            ],
+            "settings": [
+	    {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "1",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "zqkdactivecode",
+                "name": "中青授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "jckdactivecode",
+                "name": "晶彩授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            },{
+                "id": "zqkdkkz_body",
+                "name": "中青看看赚Body",
+                "val": "",
+                "type": "text",
+                "desc": "一个账号一个Body,多个账号&符号隔开"
+            },{
+                "id": "jckdkkz_body",
+                "name": "晶彩看看赚Body",
+                "val": "",
+                "type": "text",
+                "desc": "一个账号一个Body,多个账号&符号隔开"
+            }
+	    ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/zq_jc_mini.png",
+                "http://script.frp.aiuyo.com/img/zq_jc.png"
+            ],
+            "script":"https://github.com/"
+        },
+	{
+            "id":"gylmapp",
+            "name":"高佣联盟",
+            "keys":[
+                "gylmapp"
+            ],
+            "settings": [{
+                "id": "gylmuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	    {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "1",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "gylmactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/gylm-mini.png",
+                "http://script.frp.aiuyo.com/img/gylm.png"
+            ],
+            "script":"https://github.com/"
+        },
+	{
+            "id":"fqxsapp",
+            "name":"番茄小说",
+            "keys":[
+                "fqxsapp"
+            ],
+            "settings": [{
+                "id": "fqxsuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	    {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "1",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "fqxsactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/fqxs-mini.png",
+                "http://script.frp.aiuyo.com/img/fqxs.png"
+            ],
+            "script":"https://github.com/"
+        },
+	{
+            "id":"hlhbapp",
+            "name":"欢乐红包",
+            "keys":[
+                "hlhbapp"
+            ],
+            "settings": [{
+                "id": "hlhbuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	    {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "1",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "hlhbactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/hlhb-mini.png",
+                "http://script.frp.aiuyo.com/img/hlhb.png"
+            ],
+            "script":"https://github.com/"
+        },
+	{
+            "id":"djxsapp",
+            "name":"得间小说",
+            "keys":[
+                "djxsapp"
+            ],
+            "settings": [{
+                "id": "djxsuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	    {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "1",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "djxsactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/djxs-mini.png",
+                "http://script.frp.aiuyo.com/img/djxs.png"
+            ],
+            "script":"https://github.com/"
+        },
+	{
+            "id":"fdxsapp",
+            "name":"疯读小说",
+            "keys":[
+                "fdxsapp"
+            ],
+            "settings": [{
+                "id": "fdxsuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	    {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "1",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "fdxsactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/fdxs-mini.png",
+                "http://script.frp.aiuyo.com/img/fdxs.png"
+            ],
+            "script":"https://github.com/"
+        },
+	{
+            "id":"qqydapp",
+            "name":"QQ阅读",
+            "keys":[
+                "qqydapp"
+            ],
+            "settings": [{
+                "id": "qqyduserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	    {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "1",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "qqydactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/qqyd-mini.png",
+                "http://script.frp.aiuyo.com/img/qqyd.png"
+            ],
+            "script":"https://github.com/"
+        },
+	{
+            "id":"awyapp",
+            "name":"爱微影",
+            "keys":[
+                "awyapp"
+            ],
+            "settings": [{
+                "id": "awyuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	    {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "1",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "awyactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "awytxamount ",
+                "name": "提现金额",
+                "val": "0.5",
+                "type": "number",
+                "desc": "设置钱包达到多少金额提现"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/awy-mini.png",
+                "http://script.frp.aiuyo.com/img/awy.png"
+            ],
+            "script":"https://github.com/"
+        },
+	{
+            "id":"slapp",
+            "name":"闪辆",
+            "keys":[
+                "slapp"
+            ],
+            "settings": [{
+                "id": "sluserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	    {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "1",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "slactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/sl-mini.png",
+                "http://script.frp.aiuyo.com/img/sl.png"
+            ],
+            "script":"https://github.com/"
+        },
+	{
+            "id":"zqkdapp",
+            "name":"中青看点IOS",
+            "keys":[
+                "zqkdapp"
+            ],
+            "settings": [{
+                "id": "zqkduserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	    {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "1",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "zqkdactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "apiHost",
+                "name": "APIHOST",
+                "val": "",
+                "type": "text",
+                "desc": "根据提示输入"
+            },
+	    {
+                "id": "zqkdtxamount",
+                "name": "提现金额",
+                "val": "3",
+                "type": "number",
+                "desc": "0:3毛;1:1元;2:10元;3:30元"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/zqkd-mini.png",
+                "http://script.frp.aiuyo.com/img/zqkd.png"
+            ],
+            "script":"https://github.com/"
+        },
+	{
+            "id":"sjbapp",
+            "name":"睡觉宝",
+            "keys":[
+                "sjbapp"
+            ],
+            "settings": [{
+                "id": "sjbuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	    {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "1",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "sjbactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/sjb-mini.png",
+                "http://script.frp.aiuyo.com/img/sjb.png"
+            ],
+            "script":"https://github.com/"
+        },
+	{
+            "id":"synckey",
+            "name":"同步cookies到v2p",
+            "keys": ["v2purl", "v2token"],
+            "settings": [{
+        	"id": "v2pcookieupdate",
+        	"name": "同步开关",
+        	"val": false,
+        	"type": "boolean",
+        	"desc": "打开才会上传cookie,用来刚开始使用的时候。"
+      	     }, {
+        	"id": "v2purl",
+       	 	"name": "主页地址",
+        	"val": "",
+        	"type": "text",
+       	 	"desc": "请到设置查询,例子:http://192.168.1.102:12521"
+      	     },
+      	     {
+        	"id": "v2token",
+       	 	"name": "WEBHOOK TOKEN",
+        	"val": "",
+        	"type": "text",
+        	"desc": "请到设置查询,例子:a8c259b2-67fe-D-7bfdf1f55cb3"
+      	     }],
+            "author":"@Cenbomin",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/sync-mini.png",
+                "http://script.frp.aiuyo.com/img/sync.png"
+            ],
+            "script":"http://script.frp.aiuyo.com/scripts/sync_key.js"
+        },
+        {
+            "id":"zssqapp",
+            "name":"追书神器",
+            "keys":[
+                "zssqapp"
+            ],
+            "settings": [{
+                "id": "zssquserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	        {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "1",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "zssqactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/zssq-mini.png",
+                "http://script.frp.aiuyo.com/img/zssq.png"
+            ],
+            "script":"https://github.com/"
+        },
+        {
+            "id":"smapp",
+            "name":"石猫",
+            "keys":[
+                "smapp"
+            ],
+            "settings": [{
+                "id": "smuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	        {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "1",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "smactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/sm-mini.png",
+                "http://script.frp.aiuyo.com/img/sm.png"
+            ],
+            "script":"https://github.com/"
+        },
+        {
+            "id":"txsapp",
+            "name":"淘小说",
+            "keys":[
+                "txsapp"
+            ],
+            "settings": [{
+                "id": "txsuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	        {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "1",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "txsactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/txs-mini.png",
+                "http://script.frp.aiuyo.com/img/txs.png"
+            ],
+            "script":"https://github.com/"
+        },
+        {
+            "id":"wlkdapp",
+            "name":"文旅看点",
+            "keys":[
+                "wlkdapp"
+            ],
+            "settings": [{
+                "id": "wlkduserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	        {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "1",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "wlkdactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/wlkd-mini.png",
+                "http://script.frp.aiuyo.com/img/wlkd.png"
+            ],
+            "script":"https://github.com/"
+        },
+        {
+            "id":"kkdapp",
+            "name":"快看点",
+            "keys":[
+                "kkdapp"
+            ],
+            "settings": [{
+                "id": "kkduserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	        {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "kkdactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/kkd-mini.png",
+                "http://script.frp.aiuyo.com/img/kkd.png"
+            ],
+            "script":"https://github.com/"
+        },
+        {
+            "id":"jrttapp",
+            "name":"今日头条极速版",
+            "keys":[
+                "jrttapp"
+            ],
+            "settings": [{
+                "id": "jrttuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	        {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "jrttactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/jrtt-mini.png",
+                "http://script.frp.aiuyo.com/img/jrtt.png"
+            ],
+            "script":"https://github.com/"
+        },
+        {
+            "id":"syncql",
+            "name":"同步青龙",
+            "keys":[
+                "ql_host",
+                "ql_app_id",
+                "ql_secret_key",
+                "sync_ql_key",
+                "sync_ql_remark"
+            ],
+            "settings": [
+            {
+                "id": "ql_host",
+                "name": "青龙访问地址",
+                "val": "http://127.0.0.1:5700",
+                "type": "text",
+                "desc": "填写青龙的访问地址"
+            },
+            {
+                "id": "ql_app_id",
+                "name": "青龙授权id",
+                "val": "",
+                "type": "text",
+                "desc": "填写青龙的第三方授权id"
+            },
+            {
+                "id": "ql_secret_key",
+                "name": "青龙授权秘钥",
+                "val": "",
+                "type": "text",
+                "desc": "填写青龙的第三方授权秘钥"
+            },
+            {
+                "id": "sync_ql_key",
+                "name": "青龙变量名",
+                "val": "",
+                "type": "selects",
+                "items":[
+                    {"key":"dyjsbapp","label":"抖音极速版"},
+                    {"key":"zqkdapp","label":"中青看点"},
+                    {"key":"sjbapp","label":"睡觉宝"},
+                    {"key":"fdxsapp","label":"疯读小说"},
+                    {"key":"djxsapp","label":"得间小说"},
+                    {"key":"qqydapp","label":"QQ阅读"},
+                    {"key":"dzlapp","label":"多走路"},
+                    {"key":"jrttapp","label":"今日头条极速版"},
+                    {"key":"kkdapp","label":"快看点"},
+                    {"key":"sqxsapp","label":"书旗小说"},
+                    {"key":"wlkdapp","label":"文旅看点"},
+                    {"key":"txsapp","label":"淘小说"},
+                    {"key":"zssqapp","label":"追书神器"},
+                    {"key":"fqxsapp","label":"番茄小说"},
+                    {"key":"fqctapp","label":"番茄畅听"},
+                    {"key":"jzttapp","label":"九章头条"},
+                    {"key":"qttapp","label":"趣头条"},
+                    {"key":"dyhsbapp","label":"抖音火山版"},
+                    {"key":"ksapp","label":"快手短视频"},
+                    {"key":"ksjsbapp","label":"快手极速版"},
+                    {"key":"jyapp","label":"剪映"},
+                    {"key":"qdapp","label":"签到合集"},
+                    {"key":"xgspapp","label":"西瓜视频"},
+                    {"key":"jkttapp","label":"健康头条"},
+                    {"key":"fhrsapp","label":"富豪人生"},
+                    {"key":"rlspapp","label":"燃旅视频"},
+                    {"key":"gjzzapp","label":"赶集直招"},
+                    {"key":"kyapp","label":"快音"}
+                ],
+                "desc": "选择需要同步的APP"
+            },
+            {
+                "id": "sync_ql_remark",
+                "name": "青龙变量备注",
+                "val": "",
+                "type": "text",
+                "desc": "填写需要同步的变量备注信息"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/ql-mini.png",
+                "http://script.frp.aiuyo.com/img/ql.png"
+            ],
+            "script":"http://script.frp.aiuyo.com/scripts/sync_ql.js"
+        },
+        {
+            "id":"jzttapp",
+            "name":"九章头条",
+            "keys":[
+                "jzttapp"
+            ],
+            "settings": [{
+                "id": "jzttuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	        {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "jzttactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/jztt-mini.png",
+                "http://script.frp.aiuyo.com/img/jztt.png"
+            ],
+            "script":"https://github.com/"
+        },
+        {
+            "id":"jkttapp",
+            "name":"健康头条",
+            "keys":[
+                "jkttapp"
+            ],
+            "settings": [{
+                "id": "jkttuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	        {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "jkttactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/jktt-mini.png",
+                "http://script.frp.aiuyo.com/img/jktt.png"
+            ],
+            "script":"https://github.com/"
+        },
+        {
+            "id":"ksjsbapp",
+            "name":"快手极速版",
+            "keys":[
+                "ksjsbapp"
+            ],
+            "settings": [{
+                "id": "ksjsbuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	        {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "ksjsbactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/ks-mini.png",
+                "http://script.frp.aiuyo.com/img/ks.png"
+            ],
+            "script":"https://github.com/"
+        },
+        {
+            "id":"qttapp",
+            "name":"趣头条",
+            "keys":[
+                "qttapp"
+            ],
+            "settings": [{
+                "id": "qttuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	        {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "qttactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/qtt-mini.png",
+                "http://script.frp.aiuyo.com/img/qtt.png"
+            ],
+            "script":"https://github.com/"
+        },
+        {
+            "id":"dyhsbapp",
+            "name":"抖音火山版",
+            "keys":[
+                "dyhsbapp"
+            ],
+            "settings": [{
+                "id": "dyhsbuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	        {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "dyhsbactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/dyhsb-mini.png",
+                "http://script.frp.aiuyo.com/img/dyhsb.png"
+            ],
+            "script":"https://github.com/"
+        },
+        {
+            "id":"qdapp",
+            "name":"签到集合",
+            "keys":[
+                "qdapp"
+            ],
+            "settings": [{
+                "id": "qduserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	        {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "qdactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/qd-mini.png",
+                "http://script.frp.aiuyo.com/img/qd.png"
+            ],
+            "script":"https://github.com/"
+        },
+        {
+            "id":"jyapp",
+            "name":"剪映",
+            "keys":[
+                "jyapp"
+            ],
+            "settings": [{
+                "id": "jyuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	        {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "jyactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/jy-mini.png",
+                "http://script.frp.aiuyo.com/img/jy.png"
+            ],
+            "script":"https://github.com/"
+        },
+        {
+            "id":"ksapp",
+            "name":"快手短视频",
+            "keys":[
+                "ksapp"
+            ],
+            "settings": [{
+                "id": "ksuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	        {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "ksactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/ks.png",
+                "http://script.frp.aiuyo.com/img/ks-mini.png"
+            ],
+            "script":"https://github.com/"
+        },
+        {
+            "id":"ggbapp",
+            "name":"广告吧",
+            "keys":[
+                "ggbapp"
+            ],
+            "settings": [{
+                "id": "ggbuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	        {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "ggbactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/ggb.png",
+                "http://script.frp.aiuyo.com/img/ggb-mini.png"
+            ],
+            "script":"https://github.com/"
+        },
+        {
+            "id":"xgspapp",
+            "name":"西瓜视频",
+            "keys":[
+                "xgspapp"
+            ],
+            "settings": [{
+                "id": "xgspuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	        {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "xgspactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/xgsp.png",
+                "http://script.frp.aiuyo.com/img/xgsp-mini.png"
+            ],
+            "script":"https://github.com/"
+        },
+        {
+            "id":"slydapp",
+            "name":"书路阅读",
+            "keys":[
+                "slydapp"
+            ],
+            "settings": [{
+                "id": "slyduserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	        {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "slydactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/slyd.png",
+                "http://script.frp.aiuyo.com/img/slyd-mini.png"
+            ],
+            "script":"https://github.com/"
+        },
+        {
+            "id":"bqgapp",
+            "name":"笔趣阁",
+            "keys":[
+                "bqgapp"
+            ],
+            "settings": [{
+                "id": "bqguserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	        {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "bqgactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/bqg.png",
+                "http://script.frp.aiuyo.com/img/bqg-mini.png"
+            ],
+            "script":"https://github.com/"
+        },
+        {
+            "id":"tttlapp",
+            "name":"天天推理",
+            "keys":[
+                "tttlapp"
+            ],
+            "settings": [{
+                "id": "tttluserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	        {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "tttlactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/tttl.png",
+                "http://script.frp.aiuyo.com/img/tttl-mini.png"
+            ],
+            "script":"https://github.com/"
+        },
+        {
+            "id":"yqlyfapp",
+            "name":"一起来养蜂",
+            "keys":[
+                "yqlyfapp"
+            ],
+            "settings": [{
+                "id": "yqlyfuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	        {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "yqlyfactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/yqlyf.png",
+                "http://script.frp.aiuyo.com/img/yqlyf-mini.png"
+            ],
+            "script":"https://github.com/"
+        },
+        {
+            "id":"kyapp",
+            "name":"快音",
+            "keys":[
+                "kyapp"
+            ],
+            "settings": [{
+                "id": "kyuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	        {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "kyactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/ky.png",
+                "http://script.frp.aiuyo.com/img/ky-mini.png"
+            ],
+            "script":"https://github.com/"
+        },
+        {
+            "id":"gjzzapp",
+            "name":"赶集直招",
+            "keys":[
+                "gjzzapp"
+            ],
+            "settings": [{
+                "id": "gjzzuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	        {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "gjzzactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/gjzz.png",
+                "http://script.frp.aiuyo.com/img/gjzz-mini.png"
+            ],
+            "script":"https://github.com/"
+        },
+        {
+            "id":"rlspapp",
+            "name":"燃旅视频",
+            "keys":[
+                "rlspapp"
+            ],
+            "settings": [{
+                "id": "rlspuserck",
+                "name": "当前账号序号",
+                "val": "1",
+                "type": "number",
+                "desc": "你要抓取第几个账号，就填几。"
+            },
+	        {
+                "id": "tguserid",
+                "name": "用户编号",
+                "val": "",
+                "type": "number",
+                "desc": "从机器人获得"
+            },
+            {
+                "id": "rlspactivecode",
+                "name": "授权码",
+                "val": "",
+                "type": "text",
+                "desc": "从机器人获得"
+            }
+            ],
+            "author":"@David",
+            "repo":"https://t.me/DavidLoveBot",
+            "icons":[
+                "http://script.frp.aiuyo.com/img/rlsp.png",
+                "http://script.frp.aiuyo.com/img/rlsp-mini.png"
+            ],
+            "script":"https://github.com/"
+        }
+    ]
+}
