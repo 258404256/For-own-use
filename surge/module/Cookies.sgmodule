@@ -39,3 +39,4 @@ Luka_获取cookie = type=http-request,pattern=^https?:\/\/luka\-graphql\.ling\.c
 
 [MITM]
 hostname = %APPEND% *.zhuishushenqi.com, *.huami.com, *.jk-tt.com, *.zhongchuanjukan.com, api.st615.com, apph5.manmanbuy.com, maicai.api.ddxq.mobi, fmapp.chinafamilymart.com.cn, luka-graphql.ling.cn, mall.meituan.com
+
