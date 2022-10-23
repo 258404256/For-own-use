@@ -36,6 +36,9 @@ WPS会员 = type=http-response,pattern=^https?:\/\/.*?account\.wps\.(com|cn)(:\d
 Rewrite: BoxJs = type=http-request,pattern=https?:\/\/boxjs\.(com|net),script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, requires-body=true, timeout=120
 # 微信阅读（全自动），阅读得积分，100积分换1元 主选打开地址：https://shrtm.nu/Yn6h 积分提现地址：https://shrtm.nu/k8Pp mp.weixin.qq.com
 微信自动阅读（羊毛） = type=http-response,pattern=^https?://mp\.weixin\.qq\.com/s\?.*,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/wechat_auto_read.js, requires-body=true
+# 看天下解锁会员权限
+看天下 = type=http-response,pattern=^https?:\/\/open3\.vistastory\.com\/v\d\/api\/(article\/article_detail|vip\/get_vip|my\/home\/get_home_center),requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/ktx.js,script-update-interval=0
+
 
 [MITM]
-hostname = %APPEND% spclient.wg.spotify.com, app.yiyan.art, api.account.meitu.com, api.meiyan.com, biz.caiyunapp.com, api.revenuecat.com, restore-access.indream.app, account.wps.cn,*account.wps.com, ipadcms.caixin.com, *.kuwo.cn, *.lrts.me, mp.weixin.qq.com
+hostname = %APPEND% spclient.wg.spotify.com, app.yiyan.art, api.account.meitu.com, api.meiyan.com, biz.caiyunapp.com, api.revenuecat.com, restore-access.indream.app, account.wps.cn,*account.wps.com, ipadcms.caixin.com, *.kuwo.cn, *.lrts.me, mp.weixin.qq.com, open3.vistastory.com
