@@ -15,13 +15,13 @@ https:\/\/api\.revenuecat\.com header-del x-revenuecat-etag
 # hostname=spclient.wg.spotify.com
 spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js,script-update-interval=0
 # ✅ 一言(need登录) app.yiyan.art
-yiyan = type=http-response,pattern=^https:\/\/app\.yiyan\.art\/yiyan\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/yiyan.js,script-update-interval=0
+yiyan = type=http-response,pattern=^https:\/\/app\.yiyan\.art\/yiyan\/,requires-body=1,max-size=0,script-path=https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Crack/yiyan.js,script-update-interval=0
 # > 美颜相机(2022.01.15)
 # hostname = api.account.meitu.com, api.meiyan.com
 myxj1 = type=http-response,pattern=^https?:\/\/api\.account\.meitu\.com\/(common\/check_device_login_pwd|users\/show_current\.json),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/MeiYanXiangJi.js,script-update-interval=0
 myxj2 = type=http-response,pattern=^https?:\/\/api\.meiyan\.com\/vip\/(user_center\.json|user_info\.json),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/MeiYanXiangJi.js,script-update-interval=0
 # > 031 彩云天气 （2020-11-21） by ddgksf2013 biz.caiyunapp.com
-caiyuntianqi_svip = type=http-response,requires-body=1,max-size=0,pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user),script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/caiyun.js
+caiyuntianqi_svip = type=http-response,requires-body=1,max-size=0,pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user),script-path=https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Crack/caiyun.js
 # Spark解锁订阅 api.revenuecat.com
 spark = type=http-response,pattern=https:\/\/api\.revenuecat\.com,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Hpxwd/Surge/main/Js/revenuecat.js,script-update-interval=-1
 # 解锁Nicegram会员(2022.07.15) restore-access.indream.app
@@ -35,9 +35,9 @@ WPS会员 = type=http-response,pattern=^https?:\/\/.*?account\.wps\.(com|cn)(:\d
 # BoxJs http://boxjs.com boxjs.com, boxjs.net
 Rewrite: BoxJs = type=http-request,pattern=https?:\/\/boxjs\.(com|net),script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, requires-body=true, timeout=120
 # 微信阅读（全自动），阅读得积分，100积分换1元 主选打开地址：https://shrtm.nu/Yn6h 积分提现地址：https://shrtm.nu/k8Pp mp.weixin.qq.com
-微信自动阅读（羊毛） = type=http-response,pattern=^https?://mp\.weixin\.qq\.com/s\?.*,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/wechat_auto_read.js, requires-body=true
+微信自动阅读（羊毛） = type=http-response,pattern=^https?://mp\.weixin\.qq\.com/s\?.*,script-path=https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Script/wechat_auto_read.js, requires-body=true
 # 看天下解锁会员权限
-看天下 = type=http-response,pattern=^https?:\/\/open3\.vistastory\.com\/v\d\/api\/(article\/article_detail|vip\/get_vip|my\/home\/get_home_center),requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/ktx.js,script-update-interval=0
+看天下 = type=http-response,pattern=^https?:\/\/open3\.vistastory\.com\/v\d\/api\/(article\/article_detail|vip\/get_vip|my\/home\/get_home_center),requires-body=1,max-size=0,script-path=https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Crack/ktx.js,script-update-interval=0
 
 
 [MITM]
