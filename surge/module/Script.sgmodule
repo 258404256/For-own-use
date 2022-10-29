@@ -52,7 +52,17 @@ Picsew = type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyRe
 百度文库 = type=http-response,pattern=^https:\/\/appwk\.baidu\.com\/naapi\/user\/getinfo,requires-body=1,max-size=0,timeout=360,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/bdwk.js,script-update-interval=0
 # Picsart美易 18.3.2 api.meiease.cn
 Picsart = type=http-response,pattern=^https?:\/\/api\.meiease\.cn\/shop\/subscription\/validate,requires-body=1,max-size=0,timeout=30,script-path=https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Crack/picsart.js,script-update-interval=0
+# 一甜相机+解锁VIP 3.0.2 m2u-api.getkwai.com
+一甜相机 = type=http-response,pattern=^https?:\/\/m2u-api\.getkwai\.com\/api-server\/api\/v2\/vip\/vipUserInfo,requires-body=1,max-size=0,timeout=30,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/ytxj.js,script-update-interval=0
+# 网易有道词典+解锁VIP 9.2.27 dict.youdao.com
+网易有道词典 = type=http-response,pattern=^https:\/\/dict\.youdao\.com\/vip\/user\/status,requires-body=1,max-size=0,timeout=30,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/wyydcd.js,script-update-interval=0
+# vision-个人OKR目标+解锁订阅 3.3.13
+Vision = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$,requires-body=1,max-size=0,timeout=60,debug=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/vision.js
+
+
+
+
 
 
 [MITM]
-hostname = %APPEND% spclient.wg.spotify.com, app.yiyan.art, api.account.meitu.com, api.meiyan.com, biz.caiyunapp.com, api.revenuecat.com, restore-access.indream.app, account.wps.cn,*account.wps.com, ipadcms.caixin.com, mp.weixin.qq.com, open3.vistastory.com, apiios_dq.xiangha.com, dq.xiangha.com, user.xiaozaoapp.com, vipapi.jxedt.com, www.xmind.cn, buy.itunes.apple.com, appwk.baidu.com, *.kuwo.cn, *.lrts.me, api.meiease.cn
+hostname = %APPEND% spclient.wg.spotify.com, app.yiyan.art, api.account.meitu.com, api.meiyan.com, biz.caiyunapp.com, restore-access.indream.app, account.wps.cn,*account.wps.com, ipadcms.caixin.com, mp.weixin.qq.com, open3.vistastory.com, apiios_dq.xiangha.com, dq.xiangha.com, user.xiaozaoapp.com, vipapi.jxedt.com, www.xmind.cn, buy.itunes.apple.com, appwk.baidu.com, *.kuwo.cn, *.lrts.me, api.meiease.cn, m2u-api.getkwai.com, dict.youdao.com, api.revenuecat.com
