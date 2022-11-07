@@ -8,6 +8,8 @@
 Fa米家_每日签到 = type=cron,cronexp=15 0 * * *,timeout=30,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js
 # Luka每日自动签到 luka-graphql.ling.cn
 Luka_每日签到 = type=cron,cronexp=30 0 * * *,timeout=30,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/luka/luka_signin.js
+# 美团买菜每日自动签到 mall.meituan.com
+美团买菜_每日签到 = type=cron,cronexp=30 0 * * *,timeout=30,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai_checkin.js
 
 [MITM]
 hostname = %APPEND% maicai.api.ddxq.mobi
