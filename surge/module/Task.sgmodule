@@ -1,0 +1,14 @@
+#!name=Task
+#!desc=签到相关
+
+[Script]
+# 叮咚买菜每日自动签到 maicai.api.ddxq.mobi
+叮咚买菜_每日签到 = type=cron,cronexp=20 0 * * *,timeout=30,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/dingdong/dingdong_checkin.js
+# Fa米家每日自动签到 fmapp.chinafamilymart.com.cn
+Fa米家_每日签到 = type=cron,cronexp=15 0 * * *,timeout=30,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js
+# Luka每日自动签到 luka-graphql.ling.cn
+Luka_每日签到 = type=cron,cronexp=30 0 * * *,timeout=30,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/luka/luka_signin.js
+
+[MITM]
+hostname = %APPEND% maicai.api.ddxq.mobi
+
