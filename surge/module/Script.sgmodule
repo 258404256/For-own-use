@@ -12,9 +12,9 @@ force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net
 # hostname=spclient.wg.spotify.com
 spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js,script-update-interval=0
 # ✅ 一言(need登录) app.yiyan.art
-yiyan = type=http-response,pattern=^https:\/\/app\.yiyan\.art\/yiyan\/,requires-body=1,max-size=0,script-path=https://codeberg.org/ddgksf2013/Cuttlefish/raw/branch/master/Crack/yiyan.js,script-update-interval=0
+yiyan = type=http-response,pattern=^https:\/\/app\.yiyan\.art\/yiyan\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/258404256/For-own-use/main/surge/cuttlefish/Crack/yiyan.js,script-update-interval=0
 # > 031 彩云天气 （2020-11-21） by ddgksf2013 biz.caiyunapp.com
-caiyuntianqi_svip = type=http-response,requires-body=1,max-size=0,pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user),script-path=https://codeberg.org/ddgksf2013/Cuttlefish/raw/branch/master/Crack/caiyun.js
+caiyuntianqi_svip = type=http-response,requires-body=1,max-size=0,pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user),script-path=https://raw.githubusercontent.com/258404256/For-own-use/main/surge/cuttlefish/Crack/caiyun.js
 # WPS解锁本地会员,支持大陆版以及非大陆版(2022.07.10) account.wps.cn,*account.wps.com
 WPS会员 = type=http-response,pattern=^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js,script-update-interval=0
 # 财新周刊会员,登陆账号体验更加(2022.07.12) ipadcms.caixin.com
@@ -22,7 +22,7 @@ WPS会员 = type=http-response,pattern=^https?:\/\/.*?account\.wps\.(com|cn)(:\d
 # BoxJs http://boxjs.com boxjs.com, boxjs.net
 Rewrite: BoxJs = type=http-request,pattern=https?:\/\/boxjs\.(com|net),script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, requires-body=true, timeout=120
 # 看天下解锁会员权限
-看天下 = type=http-response,pattern=^https?:\/\/open3\.vistastory\.com\/v\d\/api\/(article\/article_detail|vip\/get_vip|my\/home\/get_home_center),requires-body=1,max-size=0,script-path=https://codeberg.org/ddgksf2013/Cuttlefish/raw/branch/master/Crack/ktx.js,script-update-interval=0
+看天下 = type=http-response,pattern=^https?:\/\/open3\.vistastory\.com\/v\d\/api\/(article\/article_detail|vip\/get_vip|my\/home\/get_home_center),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/258404256/For-own-use/main/surge/cuttlefish/Crack/ktx.js,script-update-interval=0
 # 菜谱大全+解锁VIP 5.2.3 apiios_dq.xiangha.com, dq.xiangha.com,
 菜谱大全 = type=http-response,pattern=^https:\/\/apiios_dq\.xiangha\.com,requires-body=1,max-size=0,timeout=30,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/cpdq.js,script-update-interval=0
 # CEO周课+解锁VIP 1.7.2 user.xiaozaoapp.com
@@ -34,7 +34,7 @@ xmind = type=http-response,pattern=^https:\/\/www\.xmind\.cn\/_res\/devices,requ
 # 百度文库☆解锁VIP文档阅读权限 8.1.01 appwk.baidu.com
 百度文库 = type=http-response,pattern=^https:\/\/appwk\.baidu\.com\/naapi\/user\/getinfo,requires-body=1,max-size=0,timeout=360,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/bdwk.js,script-update-interval=0
 # Picsart美易 18.3.2 api.meiease.cn
-Picsart = type=http-response,pattern=^https?:\/\/api\.meiease\.cn\/shop\/subscription\/validate,requires-body=1,max-size=0,timeout=30,script-path=https://codeberg.org/ddgksf2013/Cuttlefish/raw/branch/master/Crack/picsart.js,script-update-interval=0
+Picsart = type=http-response,pattern=^https?:\/\/api\.meiease\.cn\/shop\/subscription\/validate,requires-body=1,max-size=0,timeout=30,script-path=https://raw.githubusercontent.com/258404256/For-own-use/main/surge/cuttlefish/Crack/picsart.js,script-update-interval=0
 # 一甜相机+解锁VIP 3.0.2 m2u-api.getkwai.com
 一甜相机 = type=http-response,pattern=^https?:\/\/m2u-api\.getkwai\.com\/api-server\/api\/v2\/vip\/vipUserInfo,requires-body=1,max-size=0,timeout=30,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/ytxj.js,script-update-interval=0
 # 网易有道词典+解锁VIP 9.2.27 dict.youdao.com
@@ -42,9 +42,9 @@ Picsart = type=http-response,pattern=^https?:\/\/api\.meiease\.cn\/shop\/subscri
 # 微信读书+解锁无限卡会员 7.0.0 i.weread.qq.com
 微信读书 = type=http-response,pattern=^https:\/\/i\.weread\.qq\.com\/pay\/memberCardSummary,requires-body=1,max-size=0,timeout=60,debug=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/txwxds.js
 # 趣听音乐☆自动激活APP api.bspapp.com 进入APP，输入“趣听音乐馆” 免输入激活码，自动激活APP，免弹窗
-趣听音乐 = type=http-response,pattern=^https?:\/\/api\.bspapp\.com\/client,requires-body=1,max-size=0,timeout=60,debug=1,script-path=https://codeberg.org/ddgksf2013/Cuttlefish/raw/branch/master/Crack/qtmusic.js
+趣听音乐 = type=http-response,pattern=^https?:\/\/api\.bspapp\.com\/client,requires-body=1,max-size=0,timeout=60,debug=1,script-path=https://raw.githubusercontent.com/258404256/For-own-use/main/surge/cuttlefish/Crack/qtmusic.js
 # TopWidgets 解锁永久VIP功能 先卸载TopWidgets，然后重新下载TopWidgets，挂载本脚本，打开TopWidgets，恢复购买即可  *xiaozujian.com
-TopWidgets = type=http-response,pattern=^https?:\/\/.*xiaozujian\.com\/api\/app\/config\/userConfig,requires-body=1,max-size=0,timeout=60,debug=1,script-path=https://codeberg.org/ddgksf2013/Cuttlefish/raw/branch/master/Crack/topwidgets.js
+TopWidgets = type=http-response,pattern=^https?:\/\/.*xiaozujian\.com\/api\/app\/config\/userConfig,requires-body=1,max-size=0,timeout=60,debug=1,script-path=https://raw.githubusercontent.com/258404256/For-own-use/main/surge/cuttlefish/Crack/topwidgets.js
 # 白描-OCR 文字识别+解锁黄金会员 3.3.7 baimiao.uzero.cn
 白描-OCR = type=http-response,pattern=^https?:\/\/baimiao\.uzero\.cn\/api\/v\d\.user\/appLaunchWithUser$,requires-body=1,max-size=0,timeout=60,debug=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/baimiao.js
 
